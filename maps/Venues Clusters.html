@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2633a3d4da4e4c6d989aa6beec3058ad {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2633a3d4da4e4c6d989aa6beec3058ad" ></div>
+        
+</body>
+<script>    
+    
+            var map_2633a3d4da4e4c6d989aa6beec3058ad = L.map(
+                "map_2633a3d4da4e4c6d989aa6beec3058ad",
+                {
+                    center: [22.3072, 73.1812],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8ca7809e5a19420e9ed5ac2c67ac4181 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+            var circle_marker_79071519670b48b8a7c87e8032e1454d = L.circleMarker(
+                [22.3108, 73.1684],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_5235fc0830e44ffdbb4e53c285134314 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54a66a17da434d42b7c68fe7c587e83b = $(`<div id="html_54a66a17da434d42b7c68fe7c587e83b" style="width: 100.0%; height: 100.0%;">Vishal Sandwich, G 09, Kanha Capital, Vadiwadi, Vadodara</div>`)[0];
+            popup_5235fc0830e44ffdbb4e53c285134314.setContent(html_54a66a17da434d42b7c68fe7c587e83b);
+        
+
+        circle_marker_79071519670b48b8a7c87e8032e1454d.bindPopup(popup_5235fc0830e44ffdbb4e53c285134314)
+        ;
+
+        
+    
+    
+            var circle_marker_af6bf320d3044e3c92ecc9453c244423 = L.circleMarker(
+                [22.3081, 73.1686],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_f2b407ddba0b4281b120423c095905c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96db49ab3d2c43849d7f4b5e528653fb = $(`<div id="html_96db49ab3d2c43849d7f4b5e528653fb" style="width: 100.0%; height: 100.0%;">Ghani Khamma, FF- 4/5/6, CAPRY HOUSE-2, SUDHANAGAR JETALPUR ROAD, VADODARA- 390007</div>`)[0];
+            popup_f2b407ddba0b4281b120423c095905c5.setContent(html_96db49ab3d2c43849d7f4b5e528653fb);
+        
+
+        circle_marker_af6bf320d3044e3c92ecc9453c244423.bindPopup(popup_f2b407ddba0b4281b120423c095905c5)
+        ;
+
+        
+    
+    
+            var circle_marker_55c3d6e40add402b9bd57a309d8074a8 = L.circleMarker(
+                [22.3083, 73.1761],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_ff8e75bc16b544c0b54190f99ba913cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b48e99fcf4c14b4784f2ada41c8975e6 = $(`<div id="html_b48e99fcf4c14b4784f2ada41c8975e6" style="width: 100.0%; height: 100.0%;">That Place, 33, Sampatrao Colony, Alkapuri, Vadodara</div>`)[0];
+            popup_ff8e75bc16b544c0b54190f99ba913cc.setContent(html_b48e99fcf4c14b4784f2ada41c8975e6);
+        
+
+        circle_marker_55c3d6e40add402b9bd57a309d8074a8.bindPopup(popup_ff8e75bc16b544c0b54190f99ba913cc)
+        ;
+
+        
+    
+    
+            var circle_marker_91940dd2a7374f7b8a5b8fb86de02b33 = L.circleMarker(
+                [22.3123, 73.1721],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_68a91a40836240329c93930e4b4b3cec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2daf2d14c41487cab779031a16fed08 = $(`<div id="html_e2daf2d14c41487cab779031a16fed08" style="width: 100.0%; height: 100.0%;">Fiorella - Hotel Express Residency, 18/19, Hotel Express Residency, Alkapuri, Vadodara</div>`)[0];
+            popup_68a91a40836240329c93930e4b4b3cec.setContent(html_e2daf2d14c41487cab779031a16fed08);
+        
+
+        circle_marker_91940dd2a7374f7b8a5b8fb86de02b33.bindPopup(popup_68a91a40836240329c93930e4b4b3cec)
+        ;
+
+        
+    
+    
+            var circle_marker_7d447e7ce6f74e71a96c63c9511f8f6b = L.circleMarker(
+                [22.3174, 73.1693],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_f3746da377714431899b1f80845ff199 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6e600812f0542db97277eb49a3622cf = $(`<div id="html_b6e600812f0542db97277eb49a3622cf" style="width: 100.0%; height: 100.0%;">KFC, 19, Ground Floor, Vadodara Central Mall, Near Genda Circle, Wadi Road, Alkapuri, Vadodara</div>`)[0];
+            popup_f3746da377714431899b1f80845ff199.setContent(html_b6e600812f0542db97277eb49a3622cf);
+        
+
+        circle_marker_7d447e7ce6f74e71a96c63c9511f8f6b.bindPopup(popup_f3746da377714431899b1f80845ff199)
+        ;
+
+        
+    
+    
+            var circle_marker_bfb2923bb2db46428e370973c38ea934 = L.circleMarker(
+                [22.3045, 73.1642],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_f071e00655c64c71b65a601677a1f84d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae76c0ede2234aa0ad58991bdf781ce3 = $(`<div id="html_ae76c0ede2234aa0ad58991bdf781ce3" style="width: 100.0%; height: 100.0%;">Jay Maruti Nandan Soda, Shop 2, Shivalay Complex, Hari Bhakti, Jagdish Farsan Lane, Vadiwadi, Vadodara</div>`)[0];
+            popup_f071e00655c64c71b65a601677a1f84d.setContent(html_ae76c0ede2234aa0ad58991bdf781ce3);
+        
+
+        circle_marker_bfb2923bb2db46428e370973c38ea934.bindPopup(popup_f071e00655c64c71b65a601677a1f84d)
+        ;
+
+        
+    
+    
+            var circle_marker_1266fd3406954899b75e673b95ca6b08 = L.circleMarker(
+                [22.3018, 73.1658],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_9ad1e5e6283543bfbbb7726d74094dba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b59592e7da4484db443f415e8170b95 = $(`<div id="html_8b59592e7da4484db443f415e8170b95" style="width: 100.0%; height: 100.0%;">Havmor - The Eatery, 56, Punit Nagar Society, Old Padra Road, Diwalipura Crossing, Vadodara</div>`)[0];
+            popup_9ad1e5e6283543bfbbb7726d74094dba.setContent(html_8b59592e7da4484db443f415e8170b95);
+        
+
+        circle_marker_1266fd3406954899b75e673b95ca6b08.bindPopup(popup_9ad1e5e6283543bfbbb7726d74094dba)
+        ;
+
+        
+    
+    
+            var circle_marker_e1ed54a19b314acda7639460b031ffb6 = L.circleMarker(
+                [22.3078, 73.171],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_e18d8c28603f477a97ebe5e6715673ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23cc43f50bef4d2fa050b4d4232028e5 = $(`<div id="html_23cc43f50bef4d2fa050b4d4232028e5" style="width: 100.0%; height: 100.0%;">Twisted Potato, E/5, Ground Floor, Tower 2, Kashivishweshvar Complex, Jetalpur Road, Alkapuri, Vadodara</div>`)[0];
+            popup_e18d8c28603f477a97ebe5e6715673ef.setContent(html_23cc43f50bef4d2fa050b4d4232028e5);
+        
+
+        circle_marker_e1ed54a19b314acda7639460b031ffb6.bindPopup(popup_e18d8c28603f477a97ebe5e6715673ef)
+        ;
+
+        
+    
+    
+            var circle_marker_9863d12ad8d64028a7541a9a0211f8ea = L.circleMarker(
+                [22.2983, 73.1648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_774a661f11dd45f3976d3f847b00c5ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77083b6825f94d6085c2da5c77520e29 = $(`<div id="html_77083b6825f94d6085c2da5c77520e29" style="width: 100.0%; height: 100.0%;">Pizza On The Rock, Maryland Complex, Opposite Gauri Sarees, Old Padra Road, Vadodara</div>`)[0];
+            popup_774a661f11dd45f3976d3f847b00c5ad.setContent(html_77083b6825f94d6085c2da5c77520e29);
+        
+
+        circle_marker_9863d12ad8d64028a7541a9a0211f8ea.bindPopup(popup_774a661f11dd45f3976d3f847b00c5ad)
+        ;
+
+        
+    
+    
+            var circle_marker_830d0fcf42f94863a7067a73d8249183 = L.circleMarker(
+                [22.3083, 73.1875],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_2d9c696ea67e46498a1afbb694308622 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_319fb902267e47eabb34a3472a602df4 = $(`<div id="html_319fb902267e47eabb34a3472a602df4" style="width: 100.0%; height: 100.0%;">Kalaghoda- Effotel By Sayaji, Effotel By Sayaji, Kalaghoda Circle, Sayajigunj, Vadodara</div>`)[0];
+            popup_2d9c696ea67e46498a1afbb694308622.setContent(html_319fb902267e47eabb34a3472a602df4);
+        
+
+        circle_marker_830d0fcf42f94863a7067a73d8249183.bindPopup(popup_2d9c696ea67e46498a1afbb694308622)
+        ;
+
+        
+    
+    
+            var circle_marker_fbda7b20034b4b56965880fe5ad30961 = L.circleMarker(
+                [22.3225, 73.1972],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_10c6147d0b6f4ac4840a41fc932ba68e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29592c5d003a4403a6245acb2b9c1c89 = $(`<div id="html_29592c5d003a4403a6245acb2b9c1c89" style="width: 100.0%; height: 100.0%;">Raju Omlet, Mahalaxmi Apartment, Opposite B O B, Karoli Bag, Karelibaug, Vadodara</div>`)[0];
+            popup_10c6147d0b6f4ac4840a41fc932ba68e.setContent(html_29592c5d003a4403a6245acb2b9c1c89);
+        
+
+        circle_marker_fbda7b20034b4b56965880fe5ad30961.bindPopup(popup_10c6147d0b6f4ac4840a41fc932ba68e)
+        ;
+
+        
+    
+    
+            var circle_marker_804bd5fac0884a0c8c3b918cd7575bab = L.circleMarker(
+                [22.3182, 73.1697],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_39e3138b07a3415980901080ce6461e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa76d3597b384599b7bde7522727f58b = $(`<div id="html_aa76d3597b384599b7bde7522727f58b" style="width: 100.0%; height: 100.0%;">The Barbeque Grill, 3rd Floor, Centre Square Mall, Near Genda Circle, Sayaji Path, Alkapuri, Vadodara</div>`)[0];
+            popup_39e3138b07a3415980901080ce6461e1.setContent(html_aa76d3597b384599b7bde7522727f58b);
+        
+
+        circle_marker_804bd5fac0884a0c8c3b918cd7575bab.bindPopup(popup_39e3138b07a3415980901080ce6461e1)
+        ;
+
+        
+    
+    
+            var circle_marker_223a6e5a222c41acaaf494db46002664 = L.circleMarker(
+                [22.3083, 73.168],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_3054472f2aa949db82a9ac3d5aa376a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba2cc367d9c84669aba9bb073a48b65f = $(`<div id="html_ba2cc367d9c84669aba9bb073a48b65f" style="width: 100.0%; height: 100.0%;">22nd Parallel, 1st Floor, Tapan Complex, Besides M Cube Mall, Alkapuri, Vadodara</div>`)[0];
+            popup_3054472f2aa949db82a9ac3d5aa376a4.setContent(html_ba2cc367d9c84669aba9bb073a48b65f);
+        
+
+        circle_marker_223a6e5a222c41acaaf494db46002664.bindPopup(popup_3054472f2aa949db82a9ac3d5aa376a4)
+        ;
+
+        
+    
+    
+            var circle_marker_260001a9ee504a52ba8ac71fab0d2a0d = L.circleMarker(
+                [22.3095, 73.1752],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_00628aefb18b4a6780dd04b0082797ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_727f9f6bf9324def945208e10fc70ec8 = $(`<div id="html_727f9f6bf9324def945208e10fc70ec8" style="width: 100.0%; height: 100.0%;">San Sizzler&#39;s, 83, Samaptrao Colony, Mangaldhara Complex, Alkapuri, Vadodara</div>`)[0];
+            popup_00628aefb18b4a6780dd04b0082797ce.setContent(html_727f9f6bf9324def945208e10fc70ec8);
+        
+
+        circle_marker_260001a9ee504a52ba8ac71fab0d2a0d.bindPopup(popup_00628aefb18b4a6780dd04b0082797ce)
+        ;
+
+        
+    
+    
+            var circle_marker_bf3fe4565c9a48389100a629a7cabfc6 = L.circleMarker(
+                [22.3228, 73.1869],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_12d003c9d67b4e4389754afe17d79c2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3566c8cfaa884c158ade775cc55a8f6f = $(`<div id="html_3566c8cfaa884c158ade775cc55a8f6f" style="width: 100.0%; height: 100.0%;">Neopolitan Pizza, 3rd Floor, Seven Seas Mall, Fatehgunj, Vadodara</div>`)[0];
+            popup_12d003c9d67b4e4389754afe17d79c2c.setContent(html_3566c8cfaa884c158ade775cc55a8f6f);
+        
+
+        circle_marker_bf3fe4565c9a48389100a629a7cabfc6.bindPopup(popup_12d003c9d67b4e4389754afe17d79c2c)
+        ;
+
+        
+    
+    
+            var circle_marker_d51755379ad44ea2944ef9778d4013df = L.circleMarker(
+                [22.3104, 73.1587],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_f6f1d97310e14d7a94b3695af163b475 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56c52e54c5ea4e87ba8f66bcfa25e74a = $(`<div id="html_56c52e54c5ea4e87ba8f66bcfa25e74a" style="width: 100.0%; height: 100.0%;">Goodies, Near Natu Bhai Circle, Ellorapark, Vadiwadi, Vadodara</div>`)[0];
+            popup_f6f1d97310e14d7a94b3695af163b475.setContent(html_56c52e54c5ea4e87ba8f66bcfa25e74a);
+        
+
+        circle_marker_d51755379ad44ea2944ef9778d4013df.bindPopup(popup_f6f1d97310e14d7a94b3695af163b475)
+        ;
+
+        
+    
+    
+            var circle_marker_a022e0ed4fa7465fb46af3a13299214d = L.circleMarker(
+                [22.2935, 73.1746],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_ecfad49bdc1b4c99b2782b292858ec07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_132a03ac9ac342f4bcfbdbeee81abba6 = $(`<div id="html_132a03ac9ac342f4bcfbdbeee81abba6" style="width: 100.0%; height: 100.0%;">Kai Asia - Vivanta Vadodara, Vivanta Hotel, Akota Gardens, Near Gold Gym, Akota, Vadodara</div>`)[0];
+            popup_ecfad49bdc1b4c99b2782b292858ec07.setContent(html_132a03ac9ac342f4bcfbdbeee81abba6);
+        
+
+        circle_marker_a022e0ed4fa7465fb46af3a13299214d.bindPopup(popup_ecfad49bdc1b4c99b2782b292858ec07)
+        ;
+
+        
+    
+    
+            var circle_marker_b67927ae917f476ea6b450f31cae0354 = L.circleMarker(
+                [22.3107, 73.1724],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_b7db5a1d14494004b6046d6fb5007f8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7e16b4b9a934aabaa664378138f78eb = $(`<div id="html_e7e16b4b9a934aabaa664378138f78eb" style="width: 100.0%; height: 100.0%;">Bombay Sandwich Bites, SB-2, Centre Point, R.C. Dutt, Alkapuri, Vadodara</div>`)[0];
+            popup_b7db5a1d14494004b6046d6fb5007f8f.setContent(html_e7e16b4b9a934aabaa664378138f78eb);
+        
+
+        circle_marker_b67927ae917f476ea6b450f31cae0354.bindPopup(popup_b7db5a1d14494004b6046d6fb5007f8f)
+        ;
+
+        
+    
+    
+            var circle_marker_2914ad7e14fa42318da57f13615ec3a4 = L.circleMarker(
+                [22.3238, 73.1899],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_456731c1468946d993d8093bdaa819d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd2cd170b66045f093822a942ff57f3d = $(`<div id="html_bd2cd170b66045f093822a942ff57f3d" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Silver Bell Complex, Fatehgunj Main Road, Opposite State Bank of India, Fatehgunj, Vadodara</div>`)[0];
+            popup_456731c1468946d993d8093bdaa819d7.setContent(html_bd2cd170b66045f093822a942ff57f3d);
+        
+
+        circle_marker_2914ad7e14fa42318da57f13615ec3a4.bindPopup(popup_456731c1468946d993d8093bdaa819d7)
+        ;
+
+        
+    
+    
+            var circle_marker_8bfe3fa331fb459ab1ef05c1c4aea712 = L.circleMarker(
+                [22.3096, 73.1714],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_6f5e40c6c98d4de88a19c2ab3dea9911 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed1612a7903047d086ba7b56ae659f88 = $(`<div id="html_ed1612a7903047d086ba7b56ae659f88" style="width: 100.0%; height: 100.0%;">Ustaad Miyaan, 13 Alkapuri shopping center, opposite vishwas colony, Alkapuri, vadodara, Alkapuri, Vadodara</div>`)[0];
+            popup_6f5e40c6c98d4de88a19c2ab3dea9911.setContent(html_ed1612a7903047d086ba7b56ae659f88);
+        
+
+        circle_marker_8bfe3fa331fb459ab1ef05c1c4aea712.bindPopup(popup_6f5e40c6c98d4de88a19c2ab3dea9911)
+        ;
+
+        
+    
+    
+            var circle_marker_0d44b35f76aa40a4985c1c447564d840 = L.circleMarker(
+                [22.3182, 73.1697],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_bf6285f9ef7547d4b7fb7f624b6cb79b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b372b4ca834f47daa1b7d4945d0a137d = $(`<div id="html_b372b4ca834f47daa1b7d4945d0a137d" style="width: 100.0%; height: 100.0%;">The Barbeque Grill, 3rd Floor, Centre Square Mall, Near Genda Circle, Sayaji Path, Alkapuri, Vadodara</div>`)[0];
+            popup_bf6285f9ef7547d4b7fb7f624b6cb79b.setContent(html_b372b4ca834f47daa1b7d4945d0a137d);
+        
+
+        circle_marker_0d44b35f76aa40a4985c1c447564d840.bindPopup(popup_bf6285f9ef7547d4b7fb7f624b6cb79b)
+        ;
+
+        
+    
+    
+            var circle_marker_41a4079ff327483aab6645bbc78153a4 = L.circleMarker(
+                [22.296, 73.1984],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_9b30f5204be94fdbae6da31917fd840e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20778e9deff04d1788c5da7269e694bf = $(`<div id="html_20778e9deff04d1788c5da7269e694bf" style="width: 100.0%; height: 100.0%;">Jay Mahakali Sev Usal, 14 &amp; 15, Prathmesh Plazza, Behind Nehru Bhavan, Near Kirti Stambh, Rajmahal Road, Mandvi, Vadodara</div>`)[0];
+            popup_9b30f5204be94fdbae6da31917fd840e.setContent(html_20778e9deff04d1788c5da7269e694bf);
+        
+
+        circle_marker_41a4079ff327483aab6645bbc78153a4.bindPopup(popup_9b30f5204be94fdbae6da31917fd840e)
+        ;
+
+        
+    
+    
+            var circle_marker_187a99992c104fe7bf277ed75a93a653 = L.circleMarker(
+                [22.3221, 73.1657],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_1e394fb9a7654f67a3fe4ca6bfed7aaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3a156c2cc2444e08edf66909ad8412f = $(`<div id="html_f3a156c2cc2444e08edf66909ad8412f" style="width: 100.0%; height: 100.0%;">Kesar Cafe, BKS8, 2nd Floor, Food Court, Inorbit Mall, Subhanpura</div>`)[0];
+            popup_1e394fb9a7654f67a3fe4ca6bfed7aaa.setContent(html_f3a156c2cc2444e08edf66909ad8412f);
+        
+
+        circle_marker_187a99992c104fe7bf277ed75a93a653.bindPopup(popup_1e394fb9a7654f67a3fe4ca6bfed7aaa)
+        ;
+
+        
+    
+    
+            var circle_marker_29eac8fdbfb1404ea1d305855ae75930 = L.circleMarker(
+                [22.3225, 73.1974],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_7b37d115cd494d31be12ee3058a973c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10d67b35b3e2454eba9416cf8e6eb3ec = $(`<div id="html_10d67b35b3e2454eba9416cf8e6eb3ec" style="width: 100.0%; height: 100.0%;">Subway, Ground Floor, Goverdhan Apartment, Near Utkarsh Petrol Pump, Muktanand, Karelibaug, Vadodara</div>`)[0];
+            popup_7b37d115cd494d31be12ee3058a973c7.setContent(html_10d67b35b3e2454eba9416cf8e6eb3ec);
+        
+
+        circle_marker_29eac8fdbfb1404ea1d305855ae75930.bindPopup(popup_7b37d115cd494d31be12ee3058a973c7)
+        ;
+
+        
+    
+    
+            var circle_marker_4c67b265aaec4690941d58fe23696353 = L.circleMarker(
+                [22.3189, 73.1878],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_127c84a991144d70945cbc4d5feb082d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f39ed89890014e43afebdedce3ced6bb = $(`<div id="html_f39ed89890014e43afebdedce3ced6bb" style="width: 100.0%; height: 100.0%;">WAFL Cafe, GF 9, Saffron Complex, Opposite Fatehgunj Church, Fatehgunj, Vadodara</div>`)[0];
+            popup_127c84a991144d70945cbc4d5feb082d.setContent(html_f39ed89890014e43afebdedce3ced6bb);
+        
+
+        circle_marker_4c67b265aaec4690941d58fe23696353.bindPopup(popup_127c84a991144d70945cbc4d5feb082d)
+        ;
+
+        
+    
+    
+            var circle_marker_133d93d8e8c14bb2aed510a2f1919e6e = L.circleMarker(
+                [22.3081, 73.1635],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_054ea984a8ec46198e40d7e52d373cf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e21d3514c548471eb92205120504a5d8 = $(`<div id="html_e21d3514c548471eb92205120504a5d8" style="width: 100.0%; height: 100.0%;">Mirch Masala, Meghdhanush Complex, Gotri Road, Near Race Course Circle, Alkapuri, Vadodara</div>`)[0];
+            popup_054ea984a8ec46198e40d7e52d373cf1.setContent(html_e21d3514c548471eb92205120504a5d8);
+        
+
+        circle_marker_133d93d8e8c14bb2aed510a2f1919e6e.bindPopup(popup_054ea984a8ec46198e40d7e52d373cf1)
+        ;
+
+        
+    
+    
+            var circle_marker_1e87e23cec844a8dae4fe272e60e0325 = L.circleMarker(
+                [22.3125, 73.1584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_0c844f8b17c348e0ad627c522bb8b7a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be2618c995464c84985cd74e28854681 = $(`<div id="html_be2618c995464c84985cd74e28854681" style="width: 100.0%; height: 100.0%;">Coffee Culture, 1-8, Opposite INOX Multiplex, Sharnam Fortune, Ellorapark, Vadiwadi, Vadodara</div>`)[0];
+            popup_0c844f8b17c348e0ad627c522bb8b7a1.setContent(html_be2618c995464c84985cd74e28854681);
+        
+
+        circle_marker_1e87e23cec844a8dae4fe272e60e0325.bindPopup(popup_0c844f8b17c348e0ad627c522bb8b7a1)
+        ;
+
+        
+    
+    
+            var circle_marker_72b5a1a27e244bd6ac0b7156952688cc = L.circleMarker(
+                [22.3197, 73.1881],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_73c6dbb6a0d047a6a934080340aae70b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_275a8b8f46f74a8db4ed56be9dce98d0 = $(`<div id="html_275a8b8f46f74a8db4ed56be9dce98d0" style="width: 100.0%; height: 100.0%;">The Chocolate Room, Fatehgunj Main Road, Near Red Church, Fatehgunj, Vadodara</div>`)[0];
+            popup_73c6dbb6a0d047a6a934080340aae70b.setContent(html_275a8b8f46f74a8db4ed56be9dce98d0);
+        
+
+        circle_marker_72b5a1a27e244bd6ac0b7156952688cc.bindPopup(popup_73c6dbb6a0d047a6a934080340aae70b)
+        ;
+
+        
+    
+    
+            var circle_marker_969fa36b290a43939452a175fc925d86 = L.circleMarker(
+                [22.2869, 73.169],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_a31da2f347b94306ba0d27328bdb20f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_796deeae64bf4e54b8f6788bc1c075cb = $(`<div id="html_796deeae64bf4e54b8f6788bc1c075cb" style="width: 100.0%; height: 100.0%;">Pinxx - Royal Orchid Central, Royal Orchid Central, Mujmahuda, Akota, Vadodara</div>`)[0];
+            popup_a31da2f347b94306ba0d27328bdb20f3.setContent(html_796deeae64bf4e54b8f6788bc1c075cb);
+        
+
+        circle_marker_969fa36b290a43939452a175fc925d86.bindPopup(popup_a31da2f347b94306ba0d27328bdb20f3)
+        ;
+
+        
+    
+    
+            var circle_marker_0092582833c9424992a48f4749b0771f = L.circleMarker(
+                [22.3194, 73.1878],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_5b8b1af63f8e4790974f54c600efd790 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbeedcbf236b4c3da4a009cde8715aef = $(`<div id="html_bbeedcbf236b4c3da4a009cde8715aef" style="width: 100.0%; height: 100.0%;">Millennium Restaurant, Fatehgunj Main Road, Jayesh Colony, Opposite Methodist Church, Fatehgunj, Vadodara</div>`)[0];
+            popup_5b8b1af63f8e4790974f54c600efd790.setContent(html_bbeedcbf236b4c3da4a009cde8715aef);
+        
+
+        circle_marker_0092582833c9424992a48f4749b0771f.bindPopup(popup_5b8b1af63f8e4790974f54c600efd790)
+        ;
+
+        
+    
+    
+            var circle_marker_3b411fa7f4ac4108bb08152beb1f240a = L.circleMarker(
+                [22.3105, 73.169],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_b9d1d2115e0f48a397828859a2aad369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5778354f2f2245d4b79acff6a3871070 = $(`<div id="html_5778354f2f2245d4b79acff6a3871070" style="width: 100.0%; height: 100.0%;">Mandap - Hotel Express Towers, Hotel Express Towers, R.C. Dutt Road, Alkapuri, Vadodara</div>`)[0];
+            popup_b9d1d2115e0f48a397828859a2aad369.setContent(html_5778354f2f2245d4b79acff6a3871070);
+        
+
+        circle_marker_3b411fa7f4ac4108bb08152beb1f240a.bindPopup(popup_b9d1d2115e0f48a397828859a2aad369)
+        ;
+
+        
+    
+    
+            var circle_marker_81718b0f6af5461c83e9740f2c979081 = L.circleMarker(
+                [22.3089, 73.1865],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_1eba7d1d6d96492c9c81a902ed65d4ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47cb678bc49246e6be8e9fcc6b915263 = $(`<div id="html_47cb678bc49246e6be8e9fcc6b915263" style="width: 100.0%; height: 100.0%;">Hot Bite, Near Manubhai Towers, Opposite MS University, Sayajigunj, Vadodara</div>`)[0];
+            popup_1eba7d1d6d96492c9c81a902ed65d4ff.setContent(html_47cb678bc49246e6be8e9fcc6b915263);
+        
+
+        circle_marker_81718b0f6af5461c83e9740f2c979081.bindPopup(popup_1eba7d1d6d96492c9c81a902ed65d4ff)
+        ;
+
+        
+    
+    
+            var circle_marker_a700bd97bdc04f6a85b981a4db93b0c7 = L.circleMarker(
+                [22.3088, 73.1844],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_85b4ce44b8b144088406171f56ee80e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec1196d85f46438ea9dd32c71ea5cc2f = $(`<div id="html_ec1196d85f46438ea9dd32c71ea5cc2f" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Inside Chandrakuti Complex, Moje, Sayajigunj, Vadodara</div>`)[0];
+            popup_85b4ce44b8b144088406171f56ee80e1.setContent(html_ec1196d85f46438ea9dd32c71ea5cc2f);
+        
+
+        circle_marker_a700bd97bdc04f6a85b981a4db93b0c7.bindPopup(popup_85b4ce44b8b144088406171f56ee80e1)
+        ;
+
+        
+    
+    
+            var circle_marker_1ca4f961151946d0a7a15a8dba74ecd0 = L.circleMarker(
+                [22.2949, 73.1533],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_5968438c68354f518b0d23b69f8d057c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92b57ddaf257472e839918bde7de6212 = $(`<div id="html_92b57ddaf257472e839918bde7de6212" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, Shop 1-3, Ground Floor, Near D Mart, Pancham Icon, Vasna Road, Diwalipura, Vadodara</div>`)[0];
+            popup_5968438c68354f518b0d23b69f8d057c.setContent(html_92b57ddaf257472e839918bde7de6212);
+        
+
+        circle_marker_1ca4f961151946d0a7a15a8dba74ecd0.bindPopup(popup_5968438c68354f518b0d23b69f8d057c)
+        ;
+
+        
+    
+    
+            var circle_marker_3120002bc1e44f42a3c4bbfa33b31393 = L.circleMarker(
+                [22.2829, 73.1663],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_1c588e2eced34e32b82f4092b0b60121 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc5635a71c3f4c6493940331d2f94fc2 = $(`<div id="html_bc5635a71c3f4c6493940331d2f94fc2" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, Ground Floor, Shop A/1-0 Plot 18, Status Plaza Building, Near Akshar Chowk, Munjmahuda, Akota, Vadodara</div>`)[0];
+            popup_1c588e2eced34e32b82f4092b0b60121.setContent(html_bc5635a71c3f4c6493940331d2f94fc2);
+        
+
+        circle_marker_3120002bc1e44f42a3c4bbfa33b31393.bindPopup(popup_1c588e2eced34e32b82f4092b0b60121)
+        ;
+
+        
+    
+    
+            var circle_marker_30279e106d064cee8a807fc70d493a86 = L.circleMarker(
+                [22.3093, 73.1846],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_da75ee980a574efc8963fd97180d1c88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73bfba6b01c44dc1a01d3f3dfbb5f046 = $(`<div id="html_73bfba6b01c44dc1a01d3f3dfbb5f046" style="width: 100.0%; height: 100.0%;">Dairy Den, Near Sardar Patel Statue, Sayajigunj, Vadodara</div>`)[0];
+            popup_da75ee980a574efc8963fd97180d1c88.setContent(html_73bfba6b01c44dc1a01d3f3dfbb5f046);
+        
+
+        circle_marker_30279e106d064cee8a807fc70d493a86.bindPopup(popup_da75ee980a574efc8963fd97180d1c88)
+        ;
+
+        
+    
+    
+            var circle_marker_42eabc1f57ab4b81ad75516af8333cfb = L.circleMarker(
+                [22.323, 73.1868],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_4d055d9bbc4e4caa9833206da54aa973 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f1e47f213b44ca0a288cf6743f105c0 = $(`<div id="html_6f1e47f213b44ca0a288cf6743f105c0" style="width: 100.0%; height: 100.0%;">Havmor Ice Cream Parlour, 3rd Floor, Food Court, Seven Seas Mall, Fatehgunj, Vadodara</div>`)[0];
+            popup_4d055d9bbc4e4caa9833206da54aa973.setContent(html_6f1e47f213b44ca0a288cf6743f105c0);
+        
+
+        circle_marker_42eabc1f57ab4b81ad75516af8333cfb.bindPopup(popup_4d055d9bbc4e4caa9833206da54aa973)
+        ;
+
+        
+    
+    
+            var circle_marker_c7a633221d38447cbffaeeb79feffb37 = L.circleMarker(
+                [22.3189, 73.1879],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_4ed0f630806e49a48862a811fd75e0ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16266b0e96c746f78f7f159666ae439b = $(`<div id="html_16266b0e96c746f78f7f159666ae439b" style="width: 100.0%; height: 100.0%;">Ginger Hotel, Opposite Saffron Tower, Near Methodist Church, Fatehgunj, Vadodara</div>`)[0];
+            popup_4ed0f630806e49a48862a811fd75e0ff.setContent(html_16266b0e96c746f78f7f159666ae439b);
+        
+
+        circle_marker_c7a633221d38447cbffaeeb79feffb37.bindPopup(popup_4ed0f630806e49a48862a811fd75e0ff)
+        ;
+
+        
+    
+    
+            var circle_marker_63f32339609e4429a3d234993fb4e67a = L.circleMarker(
+                [22.2921, 73.1642],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_67421a40f9ec4cbc82138f965a6025ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4976ede7ea004504a00cb1210bece85f = $(`<div id="html_4976ede7ea004504a00cb1210bece85f" style="width: 100.0%; height: 100.0%;">Neo Politan Pizaa, P G Square, Near Tube Company, OP Road, Diwalipura, Vadodara</div>`)[0];
+            popup_67421a40f9ec4cbc82138f965a6025ed.setContent(html_4976ede7ea004504a00cb1210bece85f);
+        
+
+        circle_marker_63f32339609e4429a3d234993fb4e67a.bindPopup(popup_67421a40f9ec4cbc82138f965a6025ed)
+        ;
+
+        
+    
+    
+            var circle_marker_c5cb3ed4d77e48ebb01275942fc6a4b1 = L.circleMarker(
+                [22.2964, 73.1647],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_ec08d780ead642739f7b203f7edb22fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53114b8dca364431af0140674d513240 = $(`<div id="html_53114b8dca364431af0140674d513240" style="width: 100.0%; height: 100.0%;">My Restaurant, Soliter Complex, Near Manisha Char Rasta, Old Padra Road, Diwalipura, Vadodara</div>`)[0];
+            popup_ec08d780ead642739f7b203f7edb22fa.setContent(html_53114b8dca364431af0140674d513240);
+        
+
+        circle_marker_c5cb3ed4d77e48ebb01275942fc6a4b1.bindPopup(popup_ec08d780ead642739f7b203f7edb22fa)
+        ;
+
+        
+    
+    
+            var circle_marker_6034364a3fca48c788b2923893314c22 = L.circleMarker(
+                [22.296, 73.1984],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_559fe46fb0b84766bd2ea035591b02b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_456fada9bbf44937a839ae0fe0bd8372 = $(`<div id="html_456fada9bbf44937a839ae0fe0bd8372" style="width: 100.0%; height: 100.0%;">Jay Mahakali Sev Usal, 14 &amp; 15, Prathmesh Plazza, Behind Nehru Bhavan, Near Kirti Stambh, Rajmahal Road, Mandvi, Vadodara</div>`)[0];
+            popup_559fe46fb0b84766bd2ea035591b02b7.setContent(html_456fada9bbf44937a839ae0fe0bd8372);
+        
+
+        circle_marker_6034364a3fca48c788b2923893314c22.bindPopup(popup_559fe46fb0b84766bd2ea035591b02b7)
+        ;
+
+        
+    
+    
+            var circle_marker_7e48d61fadad46fca168b649eb22371c = L.circleMarker(
+                [22.2953, 73.1982],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_d99eab42b8b74e8faa8b03d1938a59b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f71c48a46314815bfa1e6ce9873cfca = $(`<div id="html_7f71c48a46314815bfa1e6ce9873cfca" style="width: 100.0%; height: 100.0%;">Shri Guruprasad Restaurant, 4, Aram Complex, Opposite Polo Ground, Rajmahal Road, Navapura, Vadodara</div>`)[0];
+            popup_d99eab42b8b74e8faa8b03d1938a59b1.setContent(html_7f71c48a46314815bfa1e6ce9873cfca);
+        
+
+        circle_marker_7e48d61fadad46fca168b649eb22371c.bindPopup(popup_d99eab42b8b74e8faa8b03d1938a59b1)
+        ;
+
+        
+    
+    
+            var circle_marker_f5ad83b7256548c18dc1b18593114ebb = L.circleMarker(
+                [22.2928, 73.165],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_84cb697a595e4e2992095fb4ba472f2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d81b30dd65549d2bc9737ccbcf9041c = $(`<div id="html_5d81b30dd65549d2bc9737ccbcf9041c" style="width: 100.0%; height: 100.0%;">Cafe Appetito, Gajanad Complex, Old Padra Road, Diwalipura, Vadodara</div>`)[0];
+            popup_84cb697a595e4e2992095fb4ba472f2d.setContent(html_5d81b30dd65549d2bc9737ccbcf9041c);
+        
+
+        circle_marker_f5ad83b7256548c18dc1b18593114ebb.bindPopup(popup_84cb697a595e4e2992095fb4ba472f2d)
+        ;
+
+        
+    
+    
+            var circle_marker_c5e192ccc8b24b13929016446b58d32a = L.circleMarker(
+                [22.32, 73.2087],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_4328e9e684d7436daaadf1ce1699436c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7ad3c3d0a7f40c08a6b10a3f9456c8e = $(`<div id="html_a7ad3c3d0a7f40c08a6b10a3f9456c8e" style="width: 100.0%; height: 100.0%;">Nilkanth Juice, Amiplex Complex, Near Pani Tank, Karelibaug, Vadodara</div>`)[0];
+            popup_4328e9e684d7436daaadf1ce1699436c.setContent(html_a7ad3c3d0a7f40c08a6b10a3f9456c8e);
+        
+
+        circle_marker_c5e192ccc8b24b13929016446b58d32a.bindPopup(popup_4328e9e684d7436daaadf1ce1699436c)
+        ;
+
+        
+    
+    
+            var circle_marker_91a5ffc425824ac0bbae1b5ad915091e = L.circleMarker(
+                [22.2774, 73.198],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_be7cafe9fb4b46088968618b0689e2e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_069360367dcf44c99ab7ee7a560695f4 = $(`<div id="html_069360367dcf44c99ab7ee7a560695f4" style="width: 100.0%; height: 100.0%;">Chatkazz, Aditya Complex, Opposite Shreya School, Manjalpur, Vadodara</div>`)[0];
+            popup_be7cafe9fb4b46088968618b0689e2e3.setContent(html_069360367dcf44c99ab7ee7a560695f4);
+        
+
+        circle_marker_91a5ffc425824ac0bbae1b5ad915091e.bindPopup(popup_be7cafe9fb4b46088968618b0689e2e3)
+        ;
+
+        
+    
+    
+            var circle_marker_bcb8f35759874df4b7a8e5f512f89591 = L.circleMarker(
+                [22.30623, 73.181815],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_2b9dfede00804c009fcc2c9584297861 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_491d1a5c02f94ccfbcad62202d11aafd = $(`<div id="html_491d1a5c02f94ccfbcad62202d11aafd" style="width: 100.0%; height: 100.0%;">Cluster: 0</div>`)[0];
+            popup_2b9dfede00804c009fcc2c9584297861.setContent(html_491d1a5c02f94ccfbcad62202d11aafd);
+        
+
+        circle_marker_bcb8f35759874df4b7a8e5f512f89591.bindPopup(popup_2b9dfede00804c009fcc2c9584297861)
+        ;
+
+        
+    
+    
+            var circle_marker_f83a25b5b0dd43a284350e7002583de3 = L.circleMarker(
+                [22.303133333333335, 73.17575],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_59fe776e313c4e539242f18e0e796efe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85447ae207d64f76b4fcb414235cdba9 = $(`<div id="html_85447ae207d64f76b4fcb414235cdba9" style="width: 100.0%; height: 100.0%;">Cluster: 1</div>`)[0];
+            popup_59fe776e313c4e539242f18e0e796efe.setContent(html_85447ae207d64f76b4fcb414235cdba9);
+        
+
+        circle_marker_f83a25b5b0dd43a284350e7002583de3.bindPopup(popup_59fe776e313c4e539242f18e0e796efe)
+        ;
+
+        
+    
+    
+            var circle_marker_779694091a0b4e93b49bec6907c51675 = L.circleMarker(
+                [22.311315789473685, 73.17277894736841],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2633a3d4da4e4c6d989aa6beec3058ad);
+        
+    
+        var popup_05dd03ddd5774f3889f5e27adaddec8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_628405d89dd548b7a116b370572ebb86 = $(`<div id="html_628405d89dd548b7a116b370572ebb86" style="width: 100.0%; height: 100.0%;">Cluster: 2</div>`)[0];
+            popup_05dd03ddd5774f3889f5e27adaddec8e.setContent(html_628405d89dd548b7a116b370572ebb86);
+        
+
+        circle_marker_779694091a0b4e93b49bec6907c51675.bindPopup(popup_05dd03ddd5774f3889f5e27adaddec8e)
+        ;
+
+        
+    
+</script>

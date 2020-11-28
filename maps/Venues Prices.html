@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1b4609e9847b45749b68135223ce4dba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1b4609e9847b45749b68135223ce4dba" ></div>
+        
+</body>
+<script>    
+    
+            var map_1b4609e9847b45749b68135223ce4dba = L.map(
+                "map_1b4609e9847b45749b68135223ce4dba",
+                {
+                    center: [22.3072, 73.1812],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0fbf1c719de04881a5e98fe33eb4c72a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var marker_db90eead559c4122949496545dadb0e4 = L.marker(
+                [22.3108, 73.1684],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_a59ed81a6a194a9bae9d12842a544097 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db90eead559c4122949496545dadb0e4.setIcon(icon_a59ed81a6a194a9bae9d12842a544097);
+        
+    
+        var popup_218cbe3502d642cc857298499fb46b8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70c4f0042ad34a5abfdb46f09fc6c6c8 = $(`<div id="html_70c4f0042ad34a5abfdb46f09fc6c6c8" style="width: 100.0%; height: 100.0%;">Vishal Sandwich, G 09, Kanha Capital, Vadiwadi, Vadodara</div>`)[0];
+            popup_218cbe3502d642cc857298499fb46b8c.setContent(html_70c4f0042ad34a5abfdb46f09fc6c6c8);
+        
+
+        marker_db90eead559c4122949496545dadb0e4.bindPopup(popup_218cbe3502d642cc857298499fb46b8c)
+        ;
+
+        
+    
+    
+            var marker_319f3176e03e4974a2fbb35ed73118ba = L.marker(
+                [22.3081, 73.1686],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_51bd1883600841d2998c310d0d702917 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_319f3176e03e4974a2fbb35ed73118ba.setIcon(icon_51bd1883600841d2998c310d0d702917);
+        
+    
+        var popup_b5cbfe5780034ab4838a2f8ef65358d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07fee9297360485d968f93ac805f1fbf = $(`<div id="html_07fee9297360485d968f93ac805f1fbf" style="width: 100.0%; height: 100.0%;">Ghani Khamma, FF- 4/5/6, CAPRY HOUSE-2, SUDHANAGAR JETALPUR ROAD, VADODARA- 390007</div>`)[0];
+            popup_b5cbfe5780034ab4838a2f8ef65358d8.setContent(html_07fee9297360485d968f93ac805f1fbf);
+        
+
+        marker_319f3176e03e4974a2fbb35ed73118ba.bindPopup(popup_b5cbfe5780034ab4838a2f8ef65358d8)
+        ;
+
+        
+    
+    
+            var marker_9cc8f179e056413bb4602f86bc05744e = L.marker(
+                [22.3083, 73.1761],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_58ddea1ed9a4408384e5ebcf64e218d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9cc8f179e056413bb4602f86bc05744e.setIcon(icon_58ddea1ed9a4408384e5ebcf64e218d4);
+        
+    
+        var popup_c49430a310234cfca58bc6a717ce4343 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c53efffbc5164da0bfd32688c70e8c3d = $(`<div id="html_c53efffbc5164da0bfd32688c70e8c3d" style="width: 100.0%; height: 100.0%;">That Place, 33, Sampatrao Colony, Alkapuri, Vadodara</div>`)[0];
+            popup_c49430a310234cfca58bc6a717ce4343.setContent(html_c53efffbc5164da0bfd32688c70e8c3d);
+        
+
+        marker_9cc8f179e056413bb4602f86bc05744e.bindPopup(popup_c49430a310234cfca58bc6a717ce4343)
+        ;
+
+        
+    
+    
+            var marker_bd54c3ef95d945dd99c09f5296deb4b0 = L.marker(
+                [22.3123, 73.1721],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_56c6dd6c627f4675b55884c635fcb704 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bd54c3ef95d945dd99c09f5296deb4b0.setIcon(icon_56c6dd6c627f4675b55884c635fcb704);
+        
+    
+        var popup_f7e6be0aa3b748bea045469cb1526a22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a536c9271559473aaba3c1029d277f5f = $(`<div id="html_a536c9271559473aaba3c1029d277f5f" style="width: 100.0%; height: 100.0%;">Fiorella - Hotel Express Residency, 18/19, Hotel Express Residency, Alkapuri, Vadodara</div>`)[0];
+            popup_f7e6be0aa3b748bea045469cb1526a22.setContent(html_a536c9271559473aaba3c1029d277f5f);
+        
+
+        marker_bd54c3ef95d945dd99c09f5296deb4b0.bindPopup(popup_f7e6be0aa3b748bea045469cb1526a22)
+        ;
+
+        
+    
+    
+            var marker_aaf324fa2bc449b5825e0f151b68e73f = L.marker(
+                [22.3174, 73.1693],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_b62b52db09bb4cbdb3a493eb0a0536b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_aaf324fa2bc449b5825e0f151b68e73f.setIcon(icon_b62b52db09bb4cbdb3a493eb0a0536b4);
+        
+    
+        var popup_ace1764db5cb4ca0b4a2462a4ea3fd6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2701bc930444d5b807eb9e64c86837c = $(`<div id="html_b2701bc930444d5b807eb9e64c86837c" style="width: 100.0%; height: 100.0%;">KFC, 19, Ground Floor, Vadodara Central Mall, Near Genda Circle, Wadi Road, Alkapuri, Vadodara</div>`)[0];
+            popup_ace1764db5cb4ca0b4a2462a4ea3fd6c.setContent(html_b2701bc930444d5b807eb9e64c86837c);
+        
+
+        marker_aaf324fa2bc449b5825e0f151b68e73f.bindPopup(popup_ace1764db5cb4ca0b4a2462a4ea3fd6c)
+        ;
+
+        
+    
+    
+            var marker_ad149c3d847e4bf9a79825718506555e = L.marker(
+                [22.3045, 73.1642],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_f3cdfd5cfb3f425abbba01a2e7d3daa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad149c3d847e4bf9a79825718506555e.setIcon(icon_f3cdfd5cfb3f425abbba01a2e7d3daa1);
+        
+    
+        var popup_80787cbb064b487dbb0d11750a372aef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32abd906bb364ffa8cb4a83dfa164b13 = $(`<div id="html_32abd906bb364ffa8cb4a83dfa164b13" style="width: 100.0%; height: 100.0%;">Jay Maruti Nandan Soda, Shop 2, Shivalay Complex, Hari Bhakti, Jagdish Farsan Lane, Vadiwadi, Vadodara</div>`)[0];
+            popup_80787cbb064b487dbb0d11750a372aef.setContent(html_32abd906bb364ffa8cb4a83dfa164b13);
+        
+
+        marker_ad149c3d847e4bf9a79825718506555e.bindPopup(popup_80787cbb064b487dbb0d11750a372aef)
+        ;
+
+        
+    
+    
+            var marker_07724c6101224cb9a0d493827a3f6454 = L.marker(
+                [22.3018, 73.1658],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_f192d7dfd0f2460eb15e90277d064fb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_07724c6101224cb9a0d493827a3f6454.setIcon(icon_f192d7dfd0f2460eb15e90277d064fb9);
+        
+    
+        var popup_98c1d91a075d4da8bee5b0b7950f3faa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a46d16a451674ed1b2e52e4f2a674a8f = $(`<div id="html_a46d16a451674ed1b2e52e4f2a674a8f" style="width: 100.0%; height: 100.0%;">Havmor - The Eatery, 56, Punit Nagar Society, Old Padra Road, Diwalipura Crossing, Vadodara</div>`)[0];
+            popup_98c1d91a075d4da8bee5b0b7950f3faa.setContent(html_a46d16a451674ed1b2e52e4f2a674a8f);
+        
+
+        marker_07724c6101224cb9a0d493827a3f6454.bindPopup(popup_98c1d91a075d4da8bee5b0b7950f3faa)
+        ;
+
+        
+    
+    
+            var marker_0b85969c4a8d4d5db0969a6052b2a508 = L.marker(
+                [22.3078, 73.171],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_4001c00eca754c27aed80cc8415048c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0b85969c4a8d4d5db0969a6052b2a508.setIcon(icon_4001c00eca754c27aed80cc8415048c4);
+        
+    
+        var popup_2727ebfe1f724d129d9f0ace339514f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab928203ba004efe9b680a152d151f04 = $(`<div id="html_ab928203ba004efe9b680a152d151f04" style="width: 100.0%; height: 100.0%;">Twisted Potato, E/5, Ground Floor, Tower 2, Kashivishweshvar Complex, Jetalpur Road, Alkapuri, Vadodara</div>`)[0];
+            popup_2727ebfe1f724d129d9f0ace339514f9.setContent(html_ab928203ba004efe9b680a152d151f04);
+        
+
+        marker_0b85969c4a8d4d5db0969a6052b2a508.bindPopup(popup_2727ebfe1f724d129d9f0ace339514f9)
+        ;
+
+        
+    
+    
+            var marker_45ce550a5e3345128e91b68d6868b782 = L.marker(
+                [22.2983, 73.1648],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_985e301a3f3f4ae9ba07d8aa1943809d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_45ce550a5e3345128e91b68d6868b782.setIcon(icon_985e301a3f3f4ae9ba07d8aa1943809d);
+        
+    
+        var popup_bc761aa8102447c6b6dc57ebaaa16e97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a63cdba00a294985ab4782072c58c311 = $(`<div id="html_a63cdba00a294985ab4782072c58c311" style="width: 100.0%; height: 100.0%;">Pizza On The Rock, Maryland Complex, Opposite Gauri Sarees, Old Padra Road, Vadodara</div>`)[0];
+            popup_bc761aa8102447c6b6dc57ebaaa16e97.setContent(html_a63cdba00a294985ab4782072c58c311);
+        
+
+        marker_45ce550a5e3345128e91b68d6868b782.bindPopup(popup_bc761aa8102447c6b6dc57ebaaa16e97)
+        ;
+
+        
+    
+    
+            var marker_51eeaf2f94584086850d48e2021d45af = L.marker(
+                [22.3083, 73.1875],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_783aeabd677145fca38e63a275c45756 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_51eeaf2f94584086850d48e2021d45af.setIcon(icon_783aeabd677145fca38e63a275c45756);
+        
+    
+        var popup_cbf8bd42b2b24b189c06892898b2d861 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b60d535b7ff449fd9c5a6591f094d7b8 = $(`<div id="html_b60d535b7ff449fd9c5a6591f094d7b8" style="width: 100.0%; height: 100.0%;">Kalaghoda- Effotel By Sayaji, Effotel By Sayaji, Kalaghoda Circle, Sayajigunj, Vadodara</div>`)[0];
+            popup_cbf8bd42b2b24b189c06892898b2d861.setContent(html_b60d535b7ff449fd9c5a6591f094d7b8);
+        
+
+        marker_51eeaf2f94584086850d48e2021d45af.bindPopup(popup_cbf8bd42b2b24b189c06892898b2d861)
+        ;
+
+        
+    
+    
+            var marker_1d248bd111a7444d8f5aa57181b68249 = L.marker(
+                [22.3225, 73.1972],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_5b9ac9f6a3d34559bdca6eec694c04fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d248bd111a7444d8f5aa57181b68249.setIcon(icon_5b9ac9f6a3d34559bdca6eec694c04fd);
+        
+    
+        var popup_8221a585de5941119643d7a88e32d2a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dcded6d2fa1409cb9ec1ff5d19dec3d = $(`<div id="html_3dcded6d2fa1409cb9ec1ff5d19dec3d" style="width: 100.0%; height: 100.0%;">Raju Omlet, Mahalaxmi Apartment, Opposite B O B, Karoli Bag, Karelibaug, Vadodara</div>`)[0];
+            popup_8221a585de5941119643d7a88e32d2a5.setContent(html_3dcded6d2fa1409cb9ec1ff5d19dec3d);
+        
+
+        marker_1d248bd111a7444d8f5aa57181b68249.bindPopup(popup_8221a585de5941119643d7a88e32d2a5)
+        ;
+
+        
+    
+    
+            var marker_608e2ab30baa44649c78d82760c73b31 = L.marker(
+                [22.3182, 73.1697],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_5025be5b01aa4fb2bf0dc0a226badaf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_608e2ab30baa44649c78d82760c73b31.setIcon(icon_5025be5b01aa4fb2bf0dc0a226badaf2);
+        
+    
+        var popup_aee7400f0d294d2eb2208f3109f0bf4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e451d80d299448a5bff350f68215f8f6 = $(`<div id="html_e451d80d299448a5bff350f68215f8f6" style="width: 100.0%; height: 100.0%;">The Barbeque Grill, 3rd Floor, Centre Square Mall, Near Genda Circle, Sayaji Path, Alkapuri, Vadodara</div>`)[0];
+            popup_aee7400f0d294d2eb2208f3109f0bf4f.setContent(html_e451d80d299448a5bff350f68215f8f6);
+        
+
+        marker_608e2ab30baa44649c78d82760c73b31.bindPopup(popup_aee7400f0d294d2eb2208f3109f0bf4f)
+        ;
+
+        
+    
+    
+            var marker_3ec7ff48a4924312bb22c619eb48b5bd = L.marker(
+                [22.3083, 73.168],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_b5a688bb271440c68884e33b597aa1d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_3ec7ff48a4924312bb22c619eb48b5bd.setIcon(icon_b5a688bb271440c68884e33b597aa1d4);
+        
+    
+        var popup_b74bbaf154554813b7043d32f38cb7f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d45fd594a52245e6bb7dc000819072d7 = $(`<div id="html_d45fd594a52245e6bb7dc000819072d7" style="width: 100.0%; height: 100.0%;">22nd Parallel, 1st Floor, Tapan Complex, Besides M Cube Mall, Alkapuri, Vadodara</div>`)[0];
+            popup_b74bbaf154554813b7043d32f38cb7f5.setContent(html_d45fd594a52245e6bb7dc000819072d7);
+        
+
+        marker_3ec7ff48a4924312bb22c619eb48b5bd.bindPopup(popup_b74bbaf154554813b7043d32f38cb7f5)
+        ;
+
+        
+    
+    
+            var marker_2c7bbe48ea6d4bbba21765b3470c56c5 = L.marker(
+                [22.3095, 73.1752],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_40d2348b0b1a419c990b75d7981b719b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2c7bbe48ea6d4bbba21765b3470c56c5.setIcon(icon_40d2348b0b1a419c990b75d7981b719b);
+        
+    
+        var popup_fd5e7078a1e4401faf42383f50c6000a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a948f116ca534d17892c5bf7f5d3710a = $(`<div id="html_a948f116ca534d17892c5bf7f5d3710a" style="width: 100.0%; height: 100.0%;">San Sizzler&#39;s, 83, Samaptrao Colony, Mangaldhara Complex, Alkapuri, Vadodara</div>`)[0];
+            popup_fd5e7078a1e4401faf42383f50c6000a.setContent(html_a948f116ca534d17892c5bf7f5d3710a);
+        
+
+        marker_2c7bbe48ea6d4bbba21765b3470c56c5.bindPopup(popup_fd5e7078a1e4401faf42383f50c6000a)
+        ;
+
+        
+    
+    
+            var marker_db33e08605a1401e8a69e3cfca49f5b3 = L.marker(
+                [22.3228, 73.1869],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_e8870a243c6f481fa9709b36dc62aae7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_db33e08605a1401e8a69e3cfca49f5b3.setIcon(icon_e8870a243c6f481fa9709b36dc62aae7);
+        
+    
+        var popup_4d4e0b31a7c14d3c818dc4dacfbb6e1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b67b6a66e7149de8c52fd66bf32e0f7 = $(`<div id="html_8b67b6a66e7149de8c52fd66bf32e0f7" style="width: 100.0%; height: 100.0%;">Neopolitan Pizza, 3rd Floor, Seven Seas Mall, Fatehgunj, Vadodara</div>`)[0];
+            popup_4d4e0b31a7c14d3c818dc4dacfbb6e1c.setContent(html_8b67b6a66e7149de8c52fd66bf32e0f7);
+        
+
+        marker_db33e08605a1401e8a69e3cfca49f5b3.bindPopup(popup_4d4e0b31a7c14d3c818dc4dacfbb6e1c)
+        ;
+
+        
+    
+    
+            var marker_cbaedf3e91c44eeeafd33a49ae83a19d = L.marker(
+                [22.3104, 73.1587],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_1f2c6fad9b94404cbe49d4cd9defa2b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_cbaedf3e91c44eeeafd33a49ae83a19d.setIcon(icon_1f2c6fad9b94404cbe49d4cd9defa2b4);
+        
+    
+        var popup_8a44d40178784a30b646830a0ff8dade = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f959e3dcb5e4771a20ed6c5cfceea18 = $(`<div id="html_0f959e3dcb5e4771a20ed6c5cfceea18" style="width: 100.0%; height: 100.0%;">Goodies, Near Natu Bhai Circle, Ellorapark, Vadiwadi, Vadodara</div>`)[0];
+            popup_8a44d40178784a30b646830a0ff8dade.setContent(html_0f959e3dcb5e4771a20ed6c5cfceea18);
+        
+
+        marker_cbaedf3e91c44eeeafd33a49ae83a19d.bindPopup(popup_8a44d40178784a30b646830a0ff8dade)
+        ;
+
+        
+    
+    
+            var marker_97b0391c9f264f47aad381e9038d4662 = L.marker(
+                [22.2935, 73.1746],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_2d8d8479c9b84252a97436128adf98c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_97b0391c9f264f47aad381e9038d4662.setIcon(icon_2d8d8479c9b84252a97436128adf98c3);
+        
+    
+        var popup_0eb5bddad74e432f9ea1e99d3de69615 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_022ed473800f4f96839631432f77676f = $(`<div id="html_022ed473800f4f96839631432f77676f" style="width: 100.0%; height: 100.0%;">Kai Asia - Vivanta Vadodara, Vivanta Hotel, Akota Gardens, Near Gold Gym, Akota, Vadodara</div>`)[0];
+            popup_0eb5bddad74e432f9ea1e99d3de69615.setContent(html_022ed473800f4f96839631432f77676f);
+        
+
+        marker_97b0391c9f264f47aad381e9038d4662.bindPopup(popup_0eb5bddad74e432f9ea1e99d3de69615)
+        ;
+
+        
+    
+    
+            var marker_c06f79abbc654bbfb8069b16ca1d204f = L.marker(
+                [22.3107, 73.1724],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_efffc830c6444328b0deedf3400fabdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c06f79abbc654bbfb8069b16ca1d204f.setIcon(icon_efffc830c6444328b0deedf3400fabdb);
+        
+    
+        var popup_a6311631bba94a3c8451d6024b974a52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cfb6d0647164432808ada3981a45748 = $(`<div id="html_0cfb6d0647164432808ada3981a45748" style="width: 100.0%; height: 100.0%;">Bombay Sandwich Bites, SB-2, Centre Point, R.C. Dutt, Alkapuri, Vadodara</div>`)[0];
+            popup_a6311631bba94a3c8451d6024b974a52.setContent(html_0cfb6d0647164432808ada3981a45748);
+        
+
+        marker_c06f79abbc654bbfb8069b16ca1d204f.bindPopup(popup_a6311631bba94a3c8451d6024b974a52)
+        ;
+
+        
+    
+    
+            var marker_bc9e4ece76ea4a18979bb5a4651de706 = L.marker(
+                [22.3238, 73.1899],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_662a847537d846048bafac082ec704b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_bc9e4ece76ea4a18979bb5a4651de706.setIcon(icon_662a847537d846048bafac082ec704b9);
+        
+    
+        var popup_778c8c4764234bc9b9eaeb9a9a078997 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6988d801f09470ca2f1f9e077bdc02a = $(`<div id="html_a6988d801f09470ca2f1f9e077bdc02a" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Silver Bell Complex, Fatehgunj Main Road, Opposite State Bank of India, Fatehgunj, Vadodara</div>`)[0];
+            popup_778c8c4764234bc9b9eaeb9a9a078997.setContent(html_a6988d801f09470ca2f1f9e077bdc02a);
+        
+
+        marker_bc9e4ece76ea4a18979bb5a4651de706.bindPopup(popup_778c8c4764234bc9b9eaeb9a9a078997)
+        ;
+
+        
+    
+    
+            var marker_58882b706bef4288b25a1ef38f603799 = L.marker(
+                [22.3096, 73.1714],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_da007aee065440e88801e77b7f28469a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_58882b706bef4288b25a1ef38f603799.setIcon(icon_da007aee065440e88801e77b7f28469a);
+        
+    
+        var popup_ad3b3060129741a8b8385af9cc6e25c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6032f56d3c7d41539dac14b3b0b78abb = $(`<div id="html_6032f56d3c7d41539dac14b3b0b78abb" style="width: 100.0%; height: 100.0%;">Ustaad Miyaan, 13 Alkapuri shopping center, opposite vishwas colony, Alkapuri, vadodara, Alkapuri, Vadodara</div>`)[0];
+            popup_ad3b3060129741a8b8385af9cc6e25c2.setContent(html_6032f56d3c7d41539dac14b3b0b78abb);
+        
+
+        marker_58882b706bef4288b25a1ef38f603799.bindPopup(popup_ad3b3060129741a8b8385af9cc6e25c2)
+        ;
+
+        
+    
+    
+            var marker_64682a2b1f33438d9c91cfad1a911005 = L.marker(
+                [22.3182, 73.1697],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_de63acea86f442c6a2475f3f24bef58f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_64682a2b1f33438d9c91cfad1a911005.setIcon(icon_de63acea86f442c6a2475f3f24bef58f);
+        
+    
+        var popup_642c4eccd78d48e1a5958f7b25f5c04e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9eb11dea21b642f582f9aa0ed8853fd8 = $(`<div id="html_9eb11dea21b642f582f9aa0ed8853fd8" style="width: 100.0%; height: 100.0%;">The Barbeque Grill, 3rd Floor, Centre Square Mall, Near Genda Circle, Sayaji Path, Alkapuri, Vadodara</div>`)[0];
+            popup_642c4eccd78d48e1a5958f7b25f5c04e.setContent(html_9eb11dea21b642f582f9aa0ed8853fd8);
+        
+
+        marker_64682a2b1f33438d9c91cfad1a911005.bindPopup(popup_642c4eccd78d48e1a5958f7b25f5c04e)
+        ;
+
+        
+    
+    
+            var marker_3e32a9ade91a42e3876e5772dddbe41b = L.marker(
+                [22.296, 73.1984],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_be0b88011f24450ebe8010b7db48b284 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e32a9ade91a42e3876e5772dddbe41b.setIcon(icon_be0b88011f24450ebe8010b7db48b284);
+        
+    
+        var popup_716f6a307eba411899535275dcc15fa4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8910e35a187843ed92956331cafd1bb5 = $(`<div id="html_8910e35a187843ed92956331cafd1bb5" style="width: 100.0%; height: 100.0%;">Jay Mahakali Sev Usal, 14 &amp; 15, Prathmesh Plazza, Behind Nehru Bhavan, Near Kirti Stambh, Rajmahal Road, Mandvi, Vadodara</div>`)[0];
+            popup_716f6a307eba411899535275dcc15fa4.setContent(html_8910e35a187843ed92956331cafd1bb5);
+        
+
+        marker_3e32a9ade91a42e3876e5772dddbe41b.bindPopup(popup_716f6a307eba411899535275dcc15fa4)
+        ;
+
+        
+    
+    
+            var marker_c6e14c33549347af838e2b1189f2ced7 = L.marker(
+                [22.3221, 73.1657],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_f2663b92111b4936b50c02f2c5ebef72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c6e14c33549347af838e2b1189f2ced7.setIcon(icon_f2663b92111b4936b50c02f2c5ebef72);
+        
+    
+        var popup_5e8d6754e0b3418aaf15cffbe656a2bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8615c32312c4ac1a766479ff825dd9a = $(`<div id="html_f8615c32312c4ac1a766479ff825dd9a" style="width: 100.0%; height: 100.0%;">Kesar Cafe, BKS8, 2nd Floor, Food Court, Inorbit Mall, Subhanpura</div>`)[0];
+            popup_5e8d6754e0b3418aaf15cffbe656a2bf.setContent(html_f8615c32312c4ac1a766479ff825dd9a);
+        
+
+        marker_c6e14c33549347af838e2b1189f2ced7.bindPopup(popup_5e8d6754e0b3418aaf15cffbe656a2bf)
+        ;
+
+        
+    
+    
+            var marker_736f75767055442f8a4d2c0c6600ce81 = L.marker(
+                [22.3225, 73.1974],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_6a91ba07fe6941bbbd02b09ba620048f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_736f75767055442f8a4d2c0c6600ce81.setIcon(icon_6a91ba07fe6941bbbd02b09ba620048f);
+        
+    
+        var popup_4a44d079d84941f986c1fc7cdc6ff025 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_115ed38d96034159904b78489b1b99ef = $(`<div id="html_115ed38d96034159904b78489b1b99ef" style="width: 100.0%; height: 100.0%;">Subway, Ground Floor, Goverdhan Apartment, Near Utkarsh Petrol Pump, Muktanand, Karelibaug, Vadodara</div>`)[0];
+            popup_4a44d079d84941f986c1fc7cdc6ff025.setContent(html_115ed38d96034159904b78489b1b99ef);
+        
+
+        marker_736f75767055442f8a4d2c0c6600ce81.bindPopup(popup_4a44d079d84941f986c1fc7cdc6ff025)
+        ;
+
+        
+    
+    
+            var marker_79625d1ad9a04e8bb6542d9101a3decc = L.marker(
+                [22.3189, 73.1878],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_c8502b12d2974e608831718048eed497 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_79625d1ad9a04e8bb6542d9101a3decc.setIcon(icon_c8502b12d2974e608831718048eed497);
+        
+    
+        var popup_e1775133648c479baade2f70137624bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_626abb3d4cad4fe6839666d853e8d749 = $(`<div id="html_626abb3d4cad4fe6839666d853e8d749" style="width: 100.0%; height: 100.0%;">WAFL Cafe, GF 9, Saffron Complex, Opposite Fatehgunj Church, Fatehgunj, Vadodara</div>`)[0];
+            popup_e1775133648c479baade2f70137624bc.setContent(html_626abb3d4cad4fe6839666d853e8d749);
+        
+
+        marker_79625d1ad9a04e8bb6542d9101a3decc.bindPopup(popup_e1775133648c479baade2f70137624bc)
+        ;
+
+        
+    
+    
+            var marker_e65a6e86bece413bb763c8cd86b244df = L.marker(
+                [22.3081, 73.1635],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_2e904915d28c441585edd50850858e39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e65a6e86bece413bb763c8cd86b244df.setIcon(icon_2e904915d28c441585edd50850858e39);
+        
+    
+        var popup_d7bb208284264b888f99ed25b4a5c683 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63c8a28d937b422dad43cfeb64ebc3d3 = $(`<div id="html_63c8a28d937b422dad43cfeb64ebc3d3" style="width: 100.0%; height: 100.0%;">Mirch Masala, Meghdhanush Complex, Gotri Road, Near Race Course Circle, Alkapuri, Vadodara</div>`)[0];
+            popup_d7bb208284264b888f99ed25b4a5c683.setContent(html_63c8a28d937b422dad43cfeb64ebc3d3);
+        
+
+        marker_e65a6e86bece413bb763c8cd86b244df.bindPopup(popup_d7bb208284264b888f99ed25b4a5c683)
+        ;
+
+        
+    
+    
+            var marker_fec1c9599e8b4b8a936f0d81e82bc3b2 = L.marker(
+                [22.3125, 73.1584],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_addd3b0a16d54b96b8e699aa81e21a16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_fec1c9599e8b4b8a936f0d81e82bc3b2.setIcon(icon_addd3b0a16d54b96b8e699aa81e21a16);
+        
+    
+        var popup_9b97494c859d4ec58af7367238f2f256 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfddeb84e8c74e7aa0cce24adc4dad46 = $(`<div id="html_bfddeb84e8c74e7aa0cce24adc4dad46" style="width: 100.0%; height: 100.0%;">Coffee Culture, 1-8, Opposite INOX Multiplex, Sharnam Fortune, Ellorapark, Vadiwadi, Vadodara</div>`)[0];
+            popup_9b97494c859d4ec58af7367238f2f256.setContent(html_bfddeb84e8c74e7aa0cce24adc4dad46);
+        
+
+        marker_fec1c9599e8b4b8a936f0d81e82bc3b2.bindPopup(popup_9b97494c859d4ec58af7367238f2f256)
+        ;
+
+        
+    
+    
+            var marker_0edd87a57708425582320b4038858fe1 = L.marker(
+                [22.3197, 73.1881],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_68c4842113844a0fad41099659bb5fba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_0edd87a57708425582320b4038858fe1.setIcon(icon_68c4842113844a0fad41099659bb5fba);
+        
+    
+        var popup_24c37d7f9a9d44ab91e5cc792db3604e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6b51589804848e6a3ed96b9c50337d5 = $(`<div id="html_b6b51589804848e6a3ed96b9c50337d5" style="width: 100.0%; height: 100.0%;">The Chocolate Room, Fatehgunj Main Road, Near Red Church, Fatehgunj, Vadodara</div>`)[0];
+            popup_24c37d7f9a9d44ab91e5cc792db3604e.setContent(html_b6b51589804848e6a3ed96b9c50337d5);
+        
+
+        marker_0edd87a57708425582320b4038858fe1.bindPopup(popup_24c37d7f9a9d44ab91e5cc792db3604e)
+        ;
+
+        
+    
+    
+            var marker_c9367b158ec147c3bb5cb75a5ff3f25c = L.marker(
+                [22.2869, 73.169],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_4d5d9289e0f14b9d86d1961bfb4e4f0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c9367b158ec147c3bb5cb75a5ff3f25c.setIcon(icon_4d5d9289e0f14b9d86d1961bfb4e4f0c);
+        
+    
+        var popup_dd1577ab6de14518a35bdf569bcbdbec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be42c00236c04c79b9e1de5fa04a5067 = $(`<div id="html_be42c00236c04c79b9e1de5fa04a5067" style="width: 100.0%; height: 100.0%;">Pinxx - Royal Orchid Central, Royal Orchid Central, Mujmahuda, Akota, Vadodara</div>`)[0];
+            popup_dd1577ab6de14518a35bdf569bcbdbec.setContent(html_be42c00236c04c79b9e1de5fa04a5067);
+        
+
+        marker_c9367b158ec147c3bb5cb75a5ff3f25c.bindPopup(popup_dd1577ab6de14518a35bdf569bcbdbec)
+        ;
+
+        
+    
+    
+            var marker_2339d389a8af4fddb981c1e83b471a03 = L.marker(
+                [22.3194, 73.1878],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_8d48fb423651455bbd0e80da7446df58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_2339d389a8af4fddb981c1e83b471a03.setIcon(icon_8d48fb423651455bbd0e80da7446df58);
+        
+    
+        var popup_53cb8f03421442d0be033376a9d6d791 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbb9a0a15fbf47e3bdbbee77165f66a2 = $(`<div id="html_bbb9a0a15fbf47e3bdbbee77165f66a2" style="width: 100.0%; height: 100.0%;">Millennium Restaurant, Fatehgunj Main Road, Jayesh Colony, Opposite Methodist Church, Fatehgunj, Vadodara</div>`)[0];
+            popup_53cb8f03421442d0be033376a9d6d791.setContent(html_bbb9a0a15fbf47e3bdbbee77165f66a2);
+        
+
+        marker_2339d389a8af4fddb981c1e83b471a03.bindPopup(popup_53cb8f03421442d0be033376a9d6d791)
+        ;
+
+        
+    
+    
+            var marker_fb22523757f44460896d617c71ac890c = L.marker(
+                [22.3105, 73.169],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_db39056d9cc84ee0a974f4f1ab307bb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_fb22523757f44460896d617c71ac890c.setIcon(icon_db39056d9cc84ee0a974f4f1ab307bb6);
+        
+    
+        var popup_9686202ddb8a4774a0c87a031811c1be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9a2615ed5304e1e9f9eaa9257dca071 = $(`<div id="html_a9a2615ed5304e1e9f9eaa9257dca071" style="width: 100.0%; height: 100.0%;">Mandap - Hotel Express Towers, Hotel Express Towers, R.C. Dutt Road, Alkapuri, Vadodara</div>`)[0];
+            popup_9686202ddb8a4774a0c87a031811c1be.setContent(html_a9a2615ed5304e1e9f9eaa9257dca071);
+        
+
+        marker_fb22523757f44460896d617c71ac890c.bindPopup(popup_9686202ddb8a4774a0c87a031811c1be)
+        ;
+
+        
+    
+    
+            var marker_a6033abf4c38459f88d386b31f9e22f3 = L.marker(
+                [22.3089, 73.1865],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_d7cb2d09925e4072b6fa66c3789b3c53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a6033abf4c38459f88d386b31f9e22f3.setIcon(icon_d7cb2d09925e4072b6fa66c3789b3c53);
+        
+    
+        var popup_6d48d9469cb34baea8080b7c207cf65a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62993094129b4faba3c3a75b5893cb10 = $(`<div id="html_62993094129b4faba3c3a75b5893cb10" style="width: 100.0%; height: 100.0%;">Hot Bite, Near Manubhai Towers, Opposite MS University, Sayajigunj, Vadodara</div>`)[0];
+            popup_6d48d9469cb34baea8080b7c207cf65a.setContent(html_62993094129b4faba3c3a75b5893cb10);
+        
+
+        marker_a6033abf4c38459f88d386b31f9e22f3.bindPopup(popup_6d48d9469cb34baea8080b7c207cf65a)
+        ;
+
+        
+    
+    
+            var marker_9f5f98b8f6de480f989483852a1d3042 = L.marker(
+                [22.3088, 73.1844],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_c16bb2bd0983429d9aa32a157805ec16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_9f5f98b8f6de480f989483852a1d3042.setIcon(icon_c16bb2bd0983429d9aa32a157805ec16);
+        
+    
+        var popup_64bd0ecaca1442fcb19e96ad7a12e186 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e5f893ccbcf4bb1bd61a32f37e14d06 = $(`<div id="html_0e5f893ccbcf4bb1bd61a32f37e14d06" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Inside Chandrakuti Complex, Moje, Sayajigunj, Vadodara</div>`)[0];
+            popup_64bd0ecaca1442fcb19e96ad7a12e186.setContent(html_0e5f893ccbcf4bb1bd61a32f37e14d06);
+        
+
+        marker_9f5f98b8f6de480f989483852a1d3042.bindPopup(popup_64bd0ecaca1442fcb19e96ad7a12e186)
+        ;
+
+        
+    
+    
+            var marker_0815213d3a2a42b9b117315bfa0b7064 = L.marker(
+                [22.2949, 73.1533],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_6dc0bb1c9917470c8c8a2699d05e06c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_0815213d3a2a42b9b117315bfa0b7064.setIcon(icon_6dc0bb1c9917470c8c8a2699d05e06c0);
+        
+    
+        var popup_fc3a3b5da0834f4688397c699daafb0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b7363b201814cc18f475e03360789a4 = $(`<div id="html_6b7363b201814cc18f475e03360789a4" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, Shop 1-3, Ground Floor, Near D Mart, Pancham Icon, Vasna Road, Diwalipura, Vadodara</div>`)[0];
+            popup_fc3a3b5da0834f4688397c699daafb0d.setContent(html_6b7363b201814cc18f475e03360789a4);
+        
+
+        marker_0815213d3a2a42b9b117315bfa0b7064.bindPopup(popup_fc3a3b5da0834f4688397c699daafb0d)
+        ;
+
+        
+    
+    
+            var marker_f0731184bf20467ebf1042a11242a925 = L.marker(
+                [22.2829, 73.1663],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_0daa147f778b4715994169cfae091c25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_f0731184bf20467ebf1042a11242a925.setIcon(icon_0daa147f778b4715994169cfae091c25);
+        
+    
+        var popup_b6bb92d5c5414375875af53db6369289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d963c6a3e60c4728ba2423b16bb5df2d = $(`<div id="html_d963c6a3e60c4728ba2423b16bb5df2d" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, Ground Floor, Shop A/1-0 Plot 18, Status Plaza Building, Near Akshar Chowk, Munjmahuda, Akota, Vadodara</div>`)[0];
+            popup_b6bb92d5c5414375875af53db6369289.setContent(html_d963c6a3e60c4728ba2423b16bb5df2d);
+        
+
+        marker_f0731184bf20467ebf1042a11242a925.bindPopup(popup_b6bb92d5c5414375875af53db6369289)
+        ;
+
+        
+    
+    
+            var marker_2d1f351d53bc4f6d87294921463cda60 = L.marker(
+                [22.3093, 73.1846],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_807706e8a7684eb488c0bb64056340f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_2d1f351d53bc4f6d87294921463cda60.setIcon(icon_807706e8a7684eb488c0bb64056340f2);
+        
+    
+        var popup_c82e6f2ef8024acda4fe2382f9780d07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b321b5768f414bf290510b8c7a899d2b = $(`<div id="html_b321b5768f414bf290510b8c7a899d2b" style="width: 100.0%; height: 100.0%;">Dairy Den, Near Sardar Patel Statue, Sayajigunj, Vadodara</div>`)[0];
+            popup_c82e6f2ef8024acda4fe2382f9780d07.setContent(html_b321b5768f414bf290510b8c7a899d2b);
+        
+
+        marker_2d1f351d53bc4f6d87294921463cda60.bindPopup(popup_c82e6f2ef8024acda4fe2382f9780d07)
+        ;
+
+        
+    
+    
+            var marker_39f68466cbe2494183d47c7796aa3e93 = L.marker(
+                [22.323, 73.1868],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_1177638265d9414f98c40e2e747efa5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_39f68466cbe2494183d47c7796aa3e93.setIcon(icon_1177638265d9414f98c40e2e747efa5e);
+        
+    
+        var popup_ae3e669af8864e6593d6930b2adb9df3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de09d957be5c4cbfb8ed7ae0eb45688b = $(`<div id="html_de09d957be5c4cbfb8ed7ae0eb45688b" style="width: 100.0%; height: 100.0%;">Havmor Ice Cream Parlour, 3rd Floor, Food Court, Seven Seas Mall, Fatehgunj, Vadodara</div>`)[0];
+            popup_ae3e669af8864e6593d6930b2adb9df3.setContent(html_de09d957be5c4cbfb8ed7ae0eb45688b);
+        
+
+        marker_39f68466cbe2494183d47c7796aa3e93.bindPopup(popup_ae3e669af8864e6593d6930b2adb9df3)
+        ;
+
+        
+    
+    
+            var marker_795aa6336a3f41e6be2cdb079486845c = L.marker(
+                [22.3189, 73.1879],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_9dfeac3da13149e39f612d9d01052c9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_795aa6336a3f41e6be2cdb079486845c.setIcon(icon_9dfeac3da13149e39f612d9d01052c9e);
+        
+    
+        var popup_889c49b212c44279bde5a2096617b9c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9655b85556f34a1590632549162b3c62 = $(`<div id="html_9655b85556f34a1590632549162b3c62" style="width: 100.0%; height: 100.0%;">Ginger Hotel, Opposite Saffron Tower, Near Methodist Church, Fatehgunj, Vadodara</div>`)[0];
+            popup_889c49b212c44279bde5a2096617b9c9.setContent(html_9655b85556f34a1590632549162b3c62);
+        
+
+        marker_795aa6336a3f41e6be2cdb079486845c.bindPopup(popup_889c49b212c44279bde5a2096617b9c9)
+        ;
+
+        
+    
+    
+            var marker_afecf62126fd49f296d5977050dec545 = L.marker(
+                [22.2921, 73.1642],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_5cb50cf61db74081ad5fb196e89e90b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_afecf62126fd49f296d5977050dec545.setIcon(icon_5cb50cf61db74081ad5fb196e89e90b7);
+        
+    
+        var popup_48c8cd46b7cf49fdb9eb4ab67e888bb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f15f71d4cce46e2a055caa8f15fb56b = $(`<div id="html_4f15f71d4cce46e2a055caa8f15fb56b" style="width: 100.0%; height: 100.0%;">Neo Politan Pizaa, P G Square, Near Tube Company, OP Road, Diwalipura, Vadodara</div>`)[0];
+            popup_48c8cd46b7cf49fdb9eb4ab67e888bb9.setContent(html_4f15f71d4cce46e2a055caa8f15fb56b);
+        
+
+        marker_afecf62126fd49f296d5977050dec545.bindPopup(popup_48c8cd46b7cf49fdb9eb4ab67e888bb9)
+        ;
+
+        
+    
+    
+            var marker_44aee00bc45247629170fa6ca2ae9bb1 = L.marker(
+                [22.2964, 73.1647],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_1c9ca0edeeda443b88a7e0c474b48cca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_44aee00bc45247629170fa6ca2ae9bb1.setIcon(icon_1c9ca0edeeda443b88a7e0c474b48cca);
+        
+    
+        var popup_9e3a158996544bc0acb05cc56458a8d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_293f785812a84f77a97e867ff6761349 = $(`<div id="html_293f785812a84f77a97e867ff6761349" style="width: 100.0%; height: 100.0%;">My Restaurant, Soliter Complex, Near Manisha Char Rasta, Old Padra Road, Diwalipura, Vadodara</div>`)[0];
+            popup_9e3a158996544bc0acb05cc56458a8d3.setContent(html_293f785812a84f77a97e867ff6761349);
+        
+
+        marker_44aee00bc45247629170fa6ca2ae9bb1.bindPopup(popup_9e3a158996544bc0acb05cc56458a8d3)
+        ;
+
+        
+    
+    
+            var marker_52dfbde9a7f0493d89e5aebe1e6b6ba3 = L.marker(
+                [22.296, 73.1984],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_9d81e09c661c401a83ffc5b5122d0b33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_52dfbde9a7f0493d89e5aebe1e6b6ba3.setIcon(icon_9d81e09c661c401a83ffc5b5122d0b33);
+        
+    
+        var popup_7ff8914864f145bf872f88974d59965d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbe6145a8b59447780954c5b3c1432d5 = $(`<div id="html_fbe6145a8b59447780954c5b3c1432d5" style="width: 100.0%; height: 100.0%;">Jay Mahakali Sev Usal, 14 &amp; 15, Prathmesh Plazza, Behind Nehru Bhavan, Near Kirti Stambh, Rajmahal Road, Mandvi, Vadodara</div>`)[0];
+            popup_7ff8914864f145bf872f88974d59965d.setContent(html_fbe6145a8b59447780954c5b3c1432d5);
+        
+
+        marker_52dfbde9a7f0493d89e5aebe1e6b6ba3.bindPopup(popup_7ff8914864f145bf872f88974d59965d)
+        ;
+
+        
+    
+    
+            var marker_eb831103ef7c41c6b598043927ec3278 = L.marker(
+                [22.2953, 73.1982],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_83300940277a432e8fbe50df1f6558b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eb831103ef7c41c6b598043927ec3278.setIcon(icon_83300940277a432e8fbe50df1f6558b9);
+        
+    
+        var popup_b41f7e9c5dd24e668add6106038fc2bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_537726ed53d548b79ac94bea9426331f = $(`<div id="html_537726ed53d548b79ac94bea9426331f" style="width: 100.0%; height: 100.0%;">Shri Guruprasad Restaurant, 4, Aram Complex, Opposite Polo Ground, Rajmahal Road, Navapura, Vadodara</div>`)[0];
+            popup_b41f7e9c5dd24e668add6106038fc2bb.setContent(html_537726ed53d548b79ac94bea9426331f);
+        
+
+        marker_eb831103ef7c41c6b598043927ec3278.bindPopup(popup_b41f7e9c5dd24e668add6106038fc2bb)
+        ;
+
+        
+    
+    
+            var marker_5f35edd7f5114324bf24f8b2e9a92c22 = L.marker(
+                [22.2928, 73.165],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_a032996bad604775862bb56eee72aee6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_5f35edd7f5114324bf24f8b2e9a92c22.setIcon(icon_a032996bad604775862bb56eee72aee6);
+        
+    
+        var popup_acde0713e08242c088775866d6b14ec6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c15adb8243e4f629246390aaba8b59f = $(`<div id="html_7c15adb8243e4f629246390aaba8b59f" style="width: 100.0%; height: 100.0%;">Cafe Appetito, Gajanad Complex, Old Padra Road, Diwalipura, Vadodara</div>`)[0];
+            popup_acde0713e08242c088775866d6b14ec6.setContent(html_7c15adb8243e4f629246390aaba8b59f);
+        
+
+        marker_5f35edd7f5114324bf24f8b2e9a92c22.bindPopup(popup_acde0713e08242c088775866d6b14ec6)
+        ;
+
+        
+    
+    
+            var marker_d73d6392c5e14d3980ba306fbd9aca56 = L.marker(
+                [22.32, 73.2087],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_a9df545287f24b659f99e15cc60efc09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d73d6392c5e14d3980ba306fbd9aca56.setIcon(icon_a9df545287f24b659f99e15cc60efc09);
+        
+    
+        var popup_45089082676049398fb3c871e939245a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bfdfe493ecf498a9aa662b786f621ca = $(`<div id="html_8bfdfe493ecf498a9aa662b786f621ca" style="width: 100.0%; height: 100.0%;">Nilkanth Juice, Amiplex Complex, Near Pani Tank, Karelibaug, Vadodara</div>`)[0];
+            popup_45089082676049398fb3c871e939245a.setContent(html_8bfdfe493ecf498a9aa662b786f621ca);
+        
+
+        marker_d73d6392c5e14d3980ba306fbd9aca56.bindPopup(popup_45089082676049398fb3c871e939245a)
+        ;
+
+        
+    
+    
+            var marker_23e3459dfa9d46bc8f8483abd5b233cf = L.marker(
+                [22.2774, 73.198],
+                {}
+            ).addTo(map_1b4609e9847b45749b68135223ce4dba);
+        
+    
+            var icon_0a0fe46ac69b4436977424bfa134866d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_23e3459dfa9d46bc8f8483abd5b233cf.setIcon(icon_0a0fe46ac69b4436977424bfa134866d);
+        
+    
+        var popup_f677269ea1c243ae9a9184ea5e43c876 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef7ae3983c64443991a7eb24b5f2f088 = $(`<div id="html_ef7ae3983c64443991a7eb24b5f2f088" style="width: 100.0%; height: 100.0%;">Chatkazz, Aditya Complex, Opposite Shreya School, Manjalpur, Vadodara</div>`)[0];
+            popup_f677269ea1c243ae9a9184ea5e43c876.setContent(html_ef7ae3983c64443991a7eb24b5f2f088);
+        
+
+        marker_23e3459dfa9d46bc8f8483abd5b233cf.bindPopup(popup_f677269ea1c243ae9a9184ea5e43c876)
+        ;
+
+        
+    
+</script>
